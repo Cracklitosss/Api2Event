@@ -17,3 +17,9 @@ model User {
   name      String
 }
 
+model Clothes {
+  id    String @id @default(auto()) @map("_id") @db.ObjectId
+  name  String
+  size  String
+  color String
+}

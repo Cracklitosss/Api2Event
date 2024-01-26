@@ -27,6 +27,13 @@ export class UserRepositoryPrisma implements IUserRepository {
   async getAll(): Promise<User[]> {
     const allUsers = await this.prisma.user.findMany();
     return allUsers.map((user: { email: string; name: string; }) => new User(user.email, user.name));
-}
+  }
 
+  async delete(email: string): Promise<void> {
+    await this.prisma.user.delete({
+      where: {
+        email: email,
+      },
+    });
+}
 }
