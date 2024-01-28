@@ -1,5 +1,5 @@
 import { PrismaClient } from "@prisma/client";
-import { IClothesRepository } from "../interfaces/ports/IClothesRepository";
+import { IClothesRepository } from "../domain/IClothesRepository";
 import { Clothes } from "../domain/Clothes";
 
 export class ClothesRepositoryPrisma implements IClothesRepository {

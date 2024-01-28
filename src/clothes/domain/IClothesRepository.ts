@@ -1,4 +1,4 @@
-import { Clothes } from "../../domain/Clothes";
+import { Clothes } from "./Clothes";
 
 export interface IClothesRepository {
   create(clothes: Clothes): Promise<Clothes>;

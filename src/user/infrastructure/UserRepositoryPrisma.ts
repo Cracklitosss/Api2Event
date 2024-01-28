@@ -1,5 +1,5 @@
 import { PrismaClient } from "@prisma/client";
-import { IUserRepository } from "../interfaces/ports/IUserRepository";
+import { IUserRepository } from "../domain/IUserRepository";
 import { User } from "../domain/User";
 import { log } from "console";
 

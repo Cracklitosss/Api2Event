@@ -1,6 +1,6 @@
 // DeleteUser.ts
 
-import { IUserRepository } from "../interfaces/ports/IUserRepository";
+import { IUserRepository } from "../domain/IUserRepository";
 
 export class DeleteUser {
     constructor(private readonly repository: IUserRepository) {}

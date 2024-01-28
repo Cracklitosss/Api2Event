@@ -1,7 +1,7 @@
 import express from 'express';
 import signale from 'signale';
-import UserRouter from '../ApiHexagonal/src/user/interfaces/controllers/UserController';
-import ClothesRouter from '../ApiHexagonal/src/clothes/interfaces/controllers/ClothesController'; // Asegúrate de tener una ruta válida
+import UserRouter from '../ApiHexagonal/src/user/infrastructure/controllers/UserController';
+import ClothesRouter from '../ApiHexagonal/src/clothes/infrastructure/controllers/ClothesController'; // Asegúrate de tener una ruta válida
 
 const app = express();
 

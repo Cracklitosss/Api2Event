@@ -1,4 +1,4 @@
-import { IClothesRepository } from "../interfaces/ports/IClothesRepository";
+import { IClothesRepository } from "../domain/IClothesRepository";
 import { Clothes } from "../domain/Clothes";
 export class DeleteClothes {
     constructor(private readonly repository: IClothesRepository) {}
