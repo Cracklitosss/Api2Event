@@ -1,5 +1,3 @@
-// DeleteUser.ts
-
 import { IUserRepository } from "../domain/IUserRepository";
 
 export class DeleteUser {
