@@ -1,5 +1,4 @@
-// This is your Prisma schema file,
-// learn more about it in the docs: https://pris.ly/d/prisma-schema
+// schema.prisma
 
 generator client {
   provider = "prisma-client-js"
@@ -10,16 +9,7 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-
-model User {
-   id    String @id @default(auto()) @map("_id") @db.ObjectId
-  email     String   @unique
-  name      String
-}
-
-model Clothes {
-  id    String @id @default(auto()) @map("_id") @db.ObjectId
-  name  String
-  size  String
-  color String
+model UserReceived {
+  id        String    @id @default(auto()) @map("_id") @db.ObjectId
+  message   String
 }
