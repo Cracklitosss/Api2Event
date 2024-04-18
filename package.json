@@ -23,9 +23,7 @@
     "prisma": "^5.8.1",
     "signale": "^1.4.0",
     "socket.io": "^4.7.4",
-    "socket.io-client": "^4.7.4",
-    "ts-node": "^10.9.2",
-    "typescript": "^5.3.3"
+    "socket.io-client": "^4.7.4"
   },
   "devDependencies": {
     "@types/amqplib": "^0.10.4",
@@ -33,6 +31,8 @@
     "@types/cors": "^2.8.17",
     "@types/signale": "^1.4.7",
     "nodemon": "^3.1.0",
-    "sonarqube-scanner": "^3.3.0"
+    "sonarqube-scanner": "^3.3.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
   }
 }
